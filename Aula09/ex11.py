@@ -1,0 +1,11 @@
+nome = str(input('Digite o seu nome: '))
+
+print(nome.upper())
+print()
+print(nome.lower())
+print()
+quant = nome.count(' ')
+print(len(nome) - quant)
+print()
+divi = nome.split()
+print(len(divi[0][0:]))
