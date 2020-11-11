@@ -1,4 +1,6 @@
 city = str(input('Digite o nome da sua cidade: '))
+lis = city.title()
+lista = lis.split()
 
-lista = city.split()
 print('Santo' in lista[0])
+print(lista)

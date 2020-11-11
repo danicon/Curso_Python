@@ -1,5 +1,4 @@
-nome = str(input('Digite o seu nome inteiro: '))
+nome = str(input('Digite o seu nome inteiro: ')).split()
 
-quant = nome.split()
-print(f'Primeiro = {quant[0]}')
-print(f'Último = {quant[-1]}')
+print(f'Primeiro = {nome[0]}')
+print(f'Último = {nome[-1]}')
