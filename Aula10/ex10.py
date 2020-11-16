@@ -1,4 +1,4 @@
-sal = float(input('Digite o seu salário: '))
+sal = float(input('Digite o seu salário: R$'))
 if sal > 1250:
     aum = sal * 1.10
 else:
